@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "### run script here"
+
+pwd
+
+ls -l /tmp/src || true
+
+ls -l /deployments || true
+
+exec /usr/local/s2i/run
