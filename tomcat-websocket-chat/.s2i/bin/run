@@ -4,6 +4,8 @@ echo "### run script in sub dir"
 
 pwd
 
+whoami
+
 ls -l /tmp/src || true
 
 ls -l /deployments || true

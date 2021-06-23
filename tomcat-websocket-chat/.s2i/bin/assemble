@@ -4,8 +4,13 @@ echo "### assemble script in sub dir"
 
 pwd
 
+whoami
+
 ls -l /tmp/src || true
 
 ls -l /deployments || true
+
+cp /tmp/src/README.md /home/jboss/hoge.md
+echo "### copied"
 
 exec /usr/local/s2i/assemble
