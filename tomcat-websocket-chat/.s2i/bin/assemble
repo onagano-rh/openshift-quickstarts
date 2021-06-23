@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "### run script in root dir"
+echo "### assemble script in sub dir"
 
 pwd
 
@@ -8,4 +8,4 @@ ls -l /tmp/src || true
 
 ls -l /deployments || true
 
-exec /usr/local/s2i/run
+exec /usr/local/s2i/assemble

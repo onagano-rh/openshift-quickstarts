@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "### run script in root dir"
+echo "### run script in sub dir"
 
 pwd
 

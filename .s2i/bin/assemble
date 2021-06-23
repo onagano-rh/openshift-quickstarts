@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "### I'm here"
+echo "### assemble script in root dir"
 
 pwd
 
