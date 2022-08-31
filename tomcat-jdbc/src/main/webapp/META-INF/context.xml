@@ -1,0 +1,12 @@
+<Context>
+      <Resource
+              name="jdbc/DsWebAppDB"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="testuser"
+              password="testuser"
+              driverClassName="org.postgresql.Driver"
+              url="jdbc:postgresql://postgresql:5432/testdb"
+              maxTotal="8"
+              maxIdle="4"/>
+  </Context>

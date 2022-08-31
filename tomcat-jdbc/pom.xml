@@ -66,8 +66,12 @@
             <version>${jboss-servlet-api_3.0_spec.version}</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.5.0</version>
+        </dependency>
     </dependencies>
-
     <build>
         <!-- Maven will append the version to the finalName (which is the name 
             given to the generated war, and hence the context root) -->
