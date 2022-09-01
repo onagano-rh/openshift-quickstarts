@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo ===
+echo === .s2i/bin/assemble is called!
+echo ===
+
+exec /usr/local/s2i/assemble
